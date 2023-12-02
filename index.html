@@ -1,0 +1,24 @@
+<html lang="en">
+
+<head>
+    <title>StopWatch Online</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<!--Created by Sazidur Rahman-->
+<body>
+
+    <div id="mainstopwatch">
+        <div class="maintime">
+            <span id="mainminute">00</span>
+            <span id="mainsecond">00</span>
+            <span id="milliseconds">00</span>
+        </div><br>
+
+        <button id="start" onclick="changeLabel()">Start</button>
+        <button id="stop" onclick="createNewDivision()">Lap</button>
+        <button id="stop" onclick="reset();deleteNewDivisions()">Reset</button>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+
+</html>
